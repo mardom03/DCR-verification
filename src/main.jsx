@@ -13,6 +13,7 @@ console.error = function filterWarnings(msg, ...args) {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+      <BrowserRouter basename={"/DCR-verification/"}>
     <App />
   </React.StrictMode>
 );
